@@ -1,0 +1,53 @@
+header.container {
+  margin-bottom: 0;
+}
+
+.carousel-inner {
+  padding-top: 0 !important;
+}
+
+.carousel-item {
+  margin-top: -20px;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.favorite-btn {
+  font-size: 2rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.favorite-active {
+  color: red;
+}
+.bi:hover {
+  background-color: rgb(209, 209, 209);
+}
+.main_menu{
+  display: flex;
+  justify-content:space-around;
+
+
+}
+/* section{
+  background-color: rgb(255, 255, 255);
+} */
+
+.main_menu ul.mega_menu li a {
+  color: gray;
+}
+
+.main_menu ul.mega_menu li a:hover {
+  color:  #a8741a; 
+}
+#productModal .modal-body p {
+  color:black; /* استبدل #666 باللون الذي تريده */
+}
+
+form{
+  text-align: center;
+}
