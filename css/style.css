@@ -980,6 +980,7 @@ ul {
   transition: 0.3s;
 }
 
+
 .slider_area.owl-carousel .owl-dots .owl-dot.active::before {
   position: absolute;
   content: "";

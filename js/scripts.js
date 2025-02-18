@@ -155,8 +155,9 @@ window.onload = function() {
     productInstance.populateProductDetails(productElement, product);
   });
 };
+
 function toggleFavorite(icon) {
-  // إذا كانت الأيقونة تحتوي على الفئة bi-heart، استبدلها بـ bi-heart-fill لجعلها حمراء.
+  // إذا كانت الأيقونة تحتوي على الفئة bi-heart، استبدلها بـ bi-heart-fill لجعلها حمراء. 
   icon.classList.toggle("bi-heart");
   icon.classList.toggle("bi-heart-fill");
 }
