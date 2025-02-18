@@ -145,7 +145,6 @@ const product07 = {
 window.onload = function() {
   // إنشاء كائنات المنتجات
   const products = [product01, product02, product03, product04, product05, product06,product07,product08];
-  
   // إنشاء كائن جديد من الفئة Product
   const productInstance = new Product();
 
