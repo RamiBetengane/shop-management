@@ -128,3 +128,35 @@ const product06 = {
   weight: "18g",
   description: "A beautifully crafted gold ring.",
 };
+const product07 = {
+  imageSrc: "../assets/73.jpg",
+  name: "Gold Ring",
+  price: 150,
+  weight: "18g",
+  description: "A beautifully crafted gold ring.",
+};const product08 = {
+  imageSrc: "../assets/73.jpg",
+  name: "Gold Ring",
+  price: 150,
+  weight: "18g",
+  description: "A beautifully crafted gold ring.",
+};
+
+window.onload = function() {
+  // إنشاء كائنات المنتجات
+  const products = [product01, product02, product03, product04, product05, product06,product07,product08];
+  
+  // إنشاء كائن جديد من الفئة Product
+  const productInstance = new Product();
+
+  // تكرار المنتجات وإضافتها للصفحة
+  products.forEach(product => {
+    const productElement = productInstance.createProductCardElement();
+    productInstance.populateProductDetails(productElement, product);
+  });
+};
+function toggleFavorite(icon) {
+  // إذا كانت الأيقونة تحتوي على الفئة bi-heart، استبدلها بـ bi-heart-fill لجعلها حمراء.
+  icon.classList.toggle("bi-heart");
+  icon.classList.toggle("bi-heart-fill");
+}

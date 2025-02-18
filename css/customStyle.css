@@ -27,11 +27,9 @@ header.container {
 .bi:hover {
   background-color: rgb(209, 209, 209);
 }
-.main_menu{
+.main_menu {
   display: flex;
-  justify-content:space-around;
-
-
+  justify-content: space-around;
 }
 /* section{
   background-color: rgb(255, 255, 255);
@@ -42,12 +40,17 @@ header.container {
 }
 
 .main_menu ul.mega_menu li a:hover {
-  color:  #a8741a; 
+  color: #a8741a;
 }
 #productModal .modal-body p {
-  color:black; /* استبدل #666 باللون الذي تريده */
+  color: black; /* استبدل #666 باللون الذي تريده */
 }
 
-form{
+form {
   text-align: center;
+
+
+}
+.bi-heart-fill {
+  color: red; /* هذا سيجعل القلب ممتلئًا باللون الأحمر */
 }
